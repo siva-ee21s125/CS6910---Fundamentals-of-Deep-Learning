@@ -4,6 +4,8 @@ This folder contains the code base for Assignment 2 as part of CS6910: Deep Lear
 
 The wandb report can be found in the following link:
 
+https://wandb.ai/ee21s125/EE21S125_DL_A2/reports/CS6910-Assignment-2--Vmlldzo3NDQ5NTY5
+
 
 ## Dataset:
 
