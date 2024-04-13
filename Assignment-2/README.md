@@ -46,7 +46,7 @@ For training and testing different neural network (RESNET50 and GOOGLENET)
 
 ### Result:
 #   Part A
-    The neural network had a testing accuracy of 43.35% with the following hyper parameters:
+The neural network had a testing accuracy of 43.35% with the following hyper parameters:
 
 - Number of filters [32]
 - Activation ['ReLU']
