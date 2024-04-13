@@ -1,19 +1,19 @@
-### iNaturalist Dataset Classification using Convolutional Neural Networks
+#### iNaturalist Dataset Classification using Convolutional Neural Networks
 
 This folder contains the code base for Assignment 2 as part of CS6910: Deep Learning Fundamentals course at IIT Madras
 
 The wandb report can be found in the following link:
 
 
-Dataset:
+## Dataset:
 
 iNaturalist data set has been used here in this assignment. Train - 8000 Test - 2000 Validation - 2000
 
 For the hyper parameter optimisation stage, 20% of the randomly shuffled training data set (around 2000 images and corresponding labels) are kept aside for validation for each hyperparameter configuration while the model is trained on the remaining 8000 images from the randomly shuffled training data set.
 
-Once the best configuration is identified with the help of wandb, the full training dataset is used to train the best model configuration and the test accuracy is calculated. The resulting confusion matrix is plotted therafter.
+Once the best configuration is identified with the help of wandb, the full training dataset is used to train the best model configuration and the test accuracy is calculated.
 
-How to run the code:
+### How to run the code:
 
 There are totally 2 folders uploaded with code, namely Part-A and Part-B .
 ## PART A
@@ -25,23 +25,27 @@ The test.py can be used for training and testing the neural network with the bes
 
     python test.py
 ## PART B
+The Pretrained.py can be used for testing the iNaturalist dataset with the Pretrained Models
 
+    python Pretrained.py
+
+### Using Jupyter Notebook: 
 Alternatively, there is CS6910_Assignment-2_Part_A.ipynb and CS6910_Assignment-2_Part_B.ipynb. You can extract it and run all the code snippets in google collab in a sequential manner
 
-    # Part A
-    Download the dataset from Google drive
-    Preprocess the data
-    For training the sweep of configurations
-    For training and testing the neural network with best configuration
+# Part A
+Download the dataset from Google drive
+Preprocess the data
+For training the sweep of configurations
+For training and testing the neural network with best configuration
 
-    # Part B
-    Download the dataset from Google drive
-    Preprocess the data
-    For training and testing different neural network (RESNET50 and GOOGLENET)
+# Part B
+Download the dataset from Google drive
+Preprocess the data
+For training and testing different neural network (RESNET50 and GOOGLENET)
     
 
-## Result:
-#   Part A:
+### Result:
+#   Part A
     The neural network had a testing accuracy of 43.35% with the following hyper parameters:
 
 - Number of filters [32]
@@ -56,6 +60,6 @@ Alternatively, there is CS6910_Assignment-2_Part_A.ipynb and CS6910_Assignment-2
 - Optimizer ['NAdam']
 - Number of Epochs [15]
 
-#   Part B:
+#   Part B
   The RESNET50 had a testing accuracy of 70.95% and GOOGLENET had a testing accuracy of 69.45%
     
