@@ -1,6 +1,6 @@
 ### iNaturalist Dataset Classification using Convolutional Neural Networks
 
-This folder contains the code base for Assignment 1 as part of CS6910: Deep Learning Fundamentals course at IIT Madras
+This folder contains the code base for Assignment 2 as part of CS6910: Deep Learning Fundamentals course at IIT Madras
 
 The wandb report can be found in the following link:
 
